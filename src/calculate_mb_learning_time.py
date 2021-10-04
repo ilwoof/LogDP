@@ -41,7 +41,7 @@ if __name__ == '__main__':
             else:
                 print(f"{file_name} does not exist!")
 
-        result_file_name = f'logdependency_mb_training_time.csv'
+        result_file_name = f'LogDP_mb_training_time.csv'
         title_str = np.array(['model', 'MB_time'])
         result_list = [f'{project},{round(np.sum(np.array(total_time)),3)}']
         save_result(result_file_name, result_list, title_str)
