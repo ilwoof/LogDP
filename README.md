@@ -26,7 +26,7 @@ If you use this code for your research, please cite our paper.
 ```
 @article{xie2021LogDP,
   title={LogDP: Combining Dependency and Proximityfor Log-based Anomaly Detection},
-  author={Li, Wenbin and Dong, Chuanqi and Tian, Pinzhuo and Qin, Tiexin and Yang, Xuesong and Wang, Ziyi and Huo Jing and Shi, Yinghuan and Wang, Lei and Gao, Yang and Luo, Jiebo Xie, Yongzheng and Zhang, Hongyu and Zhang, Bo and Muhammad Ali Babar and Sha Lu},
+  author={Xie, Yongzheng and Zhang, Hongyu and Zhang, Bo and Babar, Muhammad Ali and Lu, Sha},
   year={2021}
 }
 ```
