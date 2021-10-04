@@ -12,6 +12,14 @@ Three public log datasets, HDFS, BGL and Spirit, are used in ourexperiments, whi
 ## Benchmark Methods
 
 Six state-of-the-art log-based anomaly detection meth-ods  are  selected  as  the  benchmark  methods,  including  three  proximity-based methods, PCA, OneClassSVM (OCSVM), LogCluster ; a sequential-based methods, DeepLog; and two invariant relation-based methods, InvariantMining (IM) and ADR.
+### Benchmark methods
++ [PCA(SOSP2009)](https://dl.acm.org/doi/abs/10.1145/1629575.1629587)
++ [OneClassSVM](https://direct.mit.edu/neco/article-abstract/13/7/1443/6529)
++ [LogCluster(ICSE-C2016)](https://ieeexplore.ieee.org/abstract/document/7883294)
++ [DeepLog(CCS2017)](https://dl.acm.org/doi/abs/10.1145/3133956.3134015)
++ [InvariantMining(USENIX2010)](https://www.usenix.org/event/atc10/tech/full_papers/Lou.pdf)
++ [ADR(SRDS2020)](https://ieeexplore.ieee.org/abstract/document/9252062)
+
 
 ## Contributing
 Please feel free to contribute any kind of functions or enhancements.
