@@ -13,14 +13,13 @@ Three public log datasets, HDFS, BGL and Spirit, are used in ourexperiments, whi
 
 Six state-of-the-art log-based anomaly detection methods  are  selected  as  the  benchmark  methods
 
-### Benchmark methods
-#### Proximity-based methods
+### Proximity-based methods
 + [OneClassSVM](https://direct.mit.edu/neco/article-abstract/13/7/1443/6529)
 + [PCA(SOSP2009)](https://dl.acm.org/doi/abs/10.1145/1629575.1629587)
 + [LogCluster(ICSE-C2016)](https://ieeexplore.ieee.org/abstract/document/7883294)
-#### Sequential-based methods
+### Sequential-based methods
 + [DeepLog(CCS2017)](https://dl.acm.org/doi/abs/10.1145/3133956.3134015)
-#### Invariant relation-based methods
+### Invariant relation-based methods
 + [InvariantMining(USENIX2010)](https://www.usenix.org/event/atc10/tech/full_papers/Lou.pdf)
 + [ADR(SRDS2020)](https://ieeexplore.ieee.org/abstract/document/9252062)
 
