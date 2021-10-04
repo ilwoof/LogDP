@@ -50,6 +50,6 @@ for data_name in ['HDFS']:
     print(f'data_name={data_name}   beta={beta}   n_report={np.sum(y_pred == 1)}/{np.sum(y_tst == 1)}   '
           f'precision={precision:.3f}  recall={recall:.3f}  F1={f1:.3f}')
 
-    np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_trn_exp_f{round(f1, 2)}.npy'), trn_exp)
-    np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_tst_exp_f{round(f1, 2)}.npy'), tst_exp)
-    np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_val_exp_f{round(f1, 2)}.npy'), val_exp)
+    # np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_trn_exp_f{round(f1, 2)}.npy'), trn_exp)
+    # np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_tst_exp_f{round(f1, 2)}.npy'), tst_exp)
+    # np.save(os.path.join(DATA_PATH, f'{data_name}_{trn_num}_{feature_type}_val_exp_f{round(f1, 2)}.npy'), val_exp)
