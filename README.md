@@ -8,11 +8,11 @@ By combining dependency and proximity, LogDP is able to achieve high detection a
 
 ## Datasets
 
-Three public log datasets, HDFS, BGL and Spirit, are used in ourexperiments, which are available from [11]. From the three datasets, we generateseven datasets using different log grouping strategies. The HDFS is generatedusing session, and BGL and Spirit are generated using 1-hour logs, 100 logs, and20 logs windows. The names of the datasets of BGL and Spirit are denoted asDataset-Window, e.g., BGL-100logs as shown in Table 1. For LogDP, the first2/3 sequences of the training set are used for training, and the remaining 1/3sequences are used as a validation set.
+Three public log datasets, HDFS, BGL and Spirit, are used in ourexperiments, which are available from [LOGPAI](https://github.com/logpai). From the three datasets, we generateseven datasets using different log grouping strategies. The HDFS is generatedusing session, and BGL and Spirit are generated using 1-hour logs, 100 logs, and20 logs windows. For LogDP, the first2/3 sequences of the training set are used for training, and the remaining 1/3sequences are used as a validation set.
 
 ## Benchmark Methods
 
-Six state-of-the-art log-based anomaly detection meth-ods  are  selected  as  the  benchmark  methods,  including  three  proximity-based
+Six state-of-the-art log-based anomaly detection meth-ods  are  selected  as  the  benchmark  methods,  including  three  proximity-based methods, PCA, OneClassSVM (OCSVM), LogCluster ; a sequential-based methods, DeepLog; and two invariant relation-based methods, InvariantMining (IM) and ADR.
 
 ## Contributing
 Please feel free to contribute any kind of functions or enhancements.
