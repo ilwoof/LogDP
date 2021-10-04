@@ -7,7 +7,7 @@ By combining dependency and proximity, LogDP is able to achieve high detection a
 
 ## Datasets
 
-Three public log datasets, HDFS, BGL and Spirit, are used in ourexperiments, which are available from [LOGPAI](https://github.com/logpai). From the three datasets, we generateseven datasets using different log grouping strategies. The HDFS is generatedusing session, and BGL and Spirit are generated using 1-hour logs, 100 logs, and20 logs windows. For LogDP, the first2/3 sequences of the training set are used for training, and the remaining 1/3sequences are used as a validation set.
+Three public log datasets, HDFS, BGL and Spirit, are used in our experiments, which are available from [LOGPAI](https://github.com/logpai). From the three datasets, we generate seven datasets using different log grouping strategies. The HDFS is generated using session, and BGL and Spirit are generated using 1-hour logs, 100 logs, and20 logs windows. For LogDP, the first 2/3 sequences of the training set are used for training, and the remaining 1/3sequences are used as a validation set.
 
 ## Benchmark Methods
 
